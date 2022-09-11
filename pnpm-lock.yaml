@@ -2,19 +2,20 @@ lockfileVersion: 5.4
 
 importers:
 
+  .:
+    specifiers:
+      vue: ^3.2.39
+    dependencies:
+      vue: 3.2.39
+
   packages/connection:
     specifiers:
       core: workspace:*
-      vue: ^3.2.39
     dependencies:
       core: link:../core
-      vue: 3.2.39
 
   packages/core:
-    specifiers:
-      vue: ^3.2.39
-    dependencies:
-      vue: 3.2.39
+    specifiers: {}
 
   packages/demo:
     specifiers:
@@ -30,6 +31,9 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.39
       vite: 3.1.0
+
+  packages/hooks:
+    specifiers: {}
 
 packages:
 

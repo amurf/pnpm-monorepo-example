@@ -8,8 +8,5 @@
   "jsdelivr": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "vue": "^3.2.39"
-  }
+  "license": "ISC"
 }

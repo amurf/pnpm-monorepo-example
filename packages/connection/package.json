@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "core": "workspace:*",
-    "vue": "^3.2.39"
+    "core": "workspace:*"
   }
 }
