@@ -1,0 +1,16 @@
+{
+  "name": "connection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core": "workspace:*",
+    "vue": "^3.2.39"
+  }
+}
