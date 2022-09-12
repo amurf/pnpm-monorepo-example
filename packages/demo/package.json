@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "connection": "workspace:^1.0.0",
-    "core": "workspace:^1.0.0",
+    "marketplace": "workspace:^1.0.0",
+    "base": "workspace:^1.0.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {

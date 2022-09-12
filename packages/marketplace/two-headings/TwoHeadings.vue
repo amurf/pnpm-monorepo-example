@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { TheHeading } from 'core'
+import { TheHeading } from 'base'
 export default {
   name: 'TwoHeadings',
   components: { TheHeading }

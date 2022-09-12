@@ -1,18 +1,18 @@
 <script setup>
-import { TwoHeadings } from 'connection'
-import { TheHeading } from 'core'
+import { TwoHeadings } from 'marketplace'
+import { TheHeading } from 'base'
 </script>
 
 <template>
   <TheHeading tag='h1'>Example of pnpm monorepo</TheHeading>
   
   <section>
-    <p>This is from <strong>connection/two-headings</strong></p>
+    <p>This is from <strong>marketplace/two-headings</strong></p>
     <TwoHeadings />
   </section>
 
   <section>
-    <p>This is from <strong>core/the-heading</strong></p>
+    <p>This is from <strong>base/the-heading</strong></p>
     <TheHeading />
   </section>
 
